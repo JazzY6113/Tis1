@@ -1,6 +1,6 @@
 describe('Регистрация', () => {
-    it('Позитив', () =>{
-        cy.fixture('cypressTest').then(data =>{
+    it('Регистрация-Позитив', () => {
+        cy.fixture('cypressTest').then(data => {
             cy.log('Переход на регистрацию')
             cy.visit('https://dev.profteam.su/registration')
 
@@ -19,8 +19,8 @@ describe('Регистрация', () => {
         })
     })
 
-    it('Негатив', () =>{
-        cy.fixture('cypressTest').then(data =>{
+    it('Регистрация-Негатив', () => {
+        cy.fixture('cypressTest').then(data => {
             cy.log('Переход на регистрацию')
             cy.visit('https://dev.profteam.su/registration')
 
@@ -36,6 +36,22 @@ describe('Регистрация', () => {
             cy.get(':nth-child(3) > .form-control--medium > .form-input--text').type(data.none_existent_thirdName)
             cy.wait(1000)
             cy.get('.form__buttons > :nth-child(3)').click()
-        });
-    });
-});
+        })
+    })
+
+    it('Добавление роли студента', () => {
+        cy.fixture('cypressTest').then(data => {
+            cy.log('Переход на авторизацию')
+            cy.visit('https://dev.profteam.su')
+
+            cy.get('[href="/login"] > .button').click();
+            cy.get('.form-input--text').type(data.login)
+            cy.get('.form-input--password').type(data.password)
+            cy.wait(1000)
+            cy.get(':nth-child(3) > .button').click()
+
+            cy.get('.page-nav__role-block > .button').click()
+            cy.get('.select-role-form > :nth-child(3)').click()
+        })
+    })
+})
