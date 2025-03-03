@@ -19,12 +19,21 @@
   "lastName" : "Богомолов",
   "none_existent_thirdName": "%",
 
-  "login_for_employer": "testerEmployer",
   "name_for_employer" : "employer",
+  "none_existent_name_for_employer" : "@_`~krут",
+
   "address_for_employer": "RUSSIA",
-  "desc_for_employer": "Тут что-то нужно написать",
-  "none_address_for_employer": "123-АБВ",
-  "none_desc_for_employer": "№;%123",
-  "none_name_for_employer" : "@_`~krут",
-  "pass_for_employer" : "QWEasd123"
+  "none_existent_address_for_employer": "123-АБВ-ABC№;%",
+
+  "description_for_employer": "Супер компания по добыче драгоценных металлов в галактических приключениях",
+  "none_existent_desc_for_employer": "№;%123^",
+
+  "name_for_institution" : "institution",
+  "none_existent_name_for_institution" : "аф2345@_`~krут",
+
+  "address_for_institution": "RUSSIA",
+  "none_existent_address_for_institution": "№:№123-АБВ-ABC№;%",
+
+  "description_for_institution": "Супер учебное заведение по добыче драгоценных металлов в галактических приключениях",
+  "none_existent_desc_for_institution": "№;%123^ацвыф"
 }

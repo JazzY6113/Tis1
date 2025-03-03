@@ -52,6 +52,6 @@ describe('Регистрация', () => {
 
             cy.get('.page-nav__role-block > .button').click()
             cy.get('.select-role-form > :nth-child(3)').click()
-        })
-    })
-})
+        });
+    });
+});
