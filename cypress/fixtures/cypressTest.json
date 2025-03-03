@@ -1,39 +1,27 @@
 {
   "main_url": "https://dev.profteam.su/",
-
   "login": "Bogomolov_cypress",
   "none_existent_login": "Htoti??",
-
   "password": "cypress_Bogomolov123",
   "none_existent_password" : "123@123",
-
   "email": "Exz000@mail.ru",
   "none_existent_email" : "test123@mail.google123",
-
   "firstName": "Кирилл",
   "none_existent_firstName": "Kirill123",
-
   "thirdName": "Михайлович",
   "none_existent_lastName" : "Bogomolov@",
-
   "lastName" : "Богомолов",
   "none_existent_thirdName": "%",
-
   "name_for_employer" : "employer",
   "none_existent_name_for_employer" : "@_`~krут",
-
   "address_for_employer": "RUSSIA",
   "none_existent_address_for_employer": "123-АБВ-ABC№;%",
-
   "description_for_employer": "Супер компания по добыче драгоценных металлов в галактических приключениях",
   "none_existent_desc_for_employer": "№;%123^",
-
   "name_for_institution" : "institution",
   "none_existent_name_for_institution" : "аф2345@_`~krут",
-
   "address_for_institution": "RUSSIA",
   "none_existent_address_for_institution": "№:№123-АБВ-ABC№;%",
-
   "description_for_institution": "Супер учебное заведение по добыче драгоценных металлов в галактических приключениях",
   "none_existent_desc_for_institution": "№;%123^ацвыф"
 }

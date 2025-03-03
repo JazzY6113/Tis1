@@ -17,7 +17,7 @@ describe('Заявки', () => {
             cy.get(':nth-child(2) > .form-control--medium > .form-input--text').type(data.address_for_employer)
             cy.get('.form-area').type(data.description_for_employer)
             cy.get('.create-company-form__description-block > .button').click()
-            cy.wait(2000)
+            cy.wait(1000)
         })
     })
 
